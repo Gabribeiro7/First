@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylemalechimp.css" >
+    <script src='Mailchimp.js'></script>
+    <title>Male Chimp</title>
+</head>
+<body>
+    <main>
+        <div class="logo">
+        <img for="logo" src="https://cdn.icon-icons.com/icons2/2389/PNG/512/mailchimp_logo_icon_145088.png" alt="">
+        </div>
+        <div class="hijo2" >
+            <div >
+                <h1>Welcome to MailChimp</h1>
+                <p class="descripcion">Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's
+                    Marketing Platform. Already have an account? 
+                <span><a href="">Login</a></span>
+                </p>
+                <form action="/">
+                    
+                        <label for="email">
+                            <h3>Email</h3>
+                            <input class="boxes" type="email" placeholder="" required>
+                        </label>
+                        <label for="usuario">
+                            <h3>Username</h3>
+                            <input class="boxes" type="text" placeholder="" required>
+                        </label>
+                        <label for="contraseña" >
+                            
+                            <h3 class="separateIcon" >Contraseña</h3> 
+                            <input id="showPass" type="checkbox" onclick="myFunction()"  >
+                            <label for="showPass"><img id="Eye"  src="https://www.pngitem.com/pimgs/m/138-1384587_vision-png-transparent-images-eye-icon-font-awesome.png" />
+                               <p id="Show"> Show</p> </label>
+                            <input id="myInput" class="boxes" type="password"  value="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*?[0-9])(?=.*?[!@#$%^&*+`~'=?\|\]\[\(\)\-<>/]).{8,}">
+                        </label>
+                    
+
+                    <div>
+                        <ul>
+                            <li>One lowercase character</li>
+                            <li>One uppercase character</li>
+                            <li>One number</li>
+                            <li>One especial character</li>
+                            <li>8 characters minimum</li>
+                        </ul>
+                    </div>
+                    <div class="send">
+                    <input id="send" type="submit" value="Sign Up"></input>
+                    </div>
+                    <div id="Spam">
+                        
+                        <label class="container">I don't want to receive emails 
+                            about new Mailchimp products, best practices, 
+                            or especial offers.
+                        <input   type="checkbox" checked="checked" >
+                        <span class="checkmark"></span>
+                    
+                    </label>
+                    </div>
+                </form>
+                <div >
+                    <p class="downTexts" >
+                        By clicking the "Sign Up" button, you are creating a Mailchimp account, 
+                        and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy policy</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </main>    
+</body>
+</html>
